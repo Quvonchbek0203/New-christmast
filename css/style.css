@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* message start */
+.message{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.message-1{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+.message-1 h1{
+    font-size: 40px;
+    color: white;
+}
+.message-1 input{
+    margin: 20px 0;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 20px;
+}
+.message-1 button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.message-1 img{
+    transform: rotate(15deg);
+}
+/* message end */
+/* footer start  */
+.footer{
+    position: relative;
+}
+.footer-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding-top: 150px;
+    cursor: pointer;
+}
+.footer-text p{
+    color: #5D5656;
+}
+.footer-text .chrismas p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.services p {
+    padding: 15px 0;
+}
+.support p{
+    padding: 15px 0;
+}
+.available img{
+    padding: 10px 0;
+}
+#footer-1{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+#footer-2{
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+.footer-center{
+    position: absolute;
+    top: 500px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+@media (max-width: 1300px ) {
+    #footer-1{
+        position:absolute;
+        right: -200px;
+    }
+    #footer-2{
+        position:absolute;
+    }
+    
+}
+@media (max-width: 768px) {
+    .message-1{
+        height: 550px;
+        text-align: center;
+        margin: 20px;
+    }
+    .message-1 h1{
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .message-1 input{
+        width: 350px;
+        margin: 30px;
+    }
+    .footer-text{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .message-1 button{
+        width: 350px;
+    }
+    #footer-1{
+        position:absolute;
+        right: 10px;
+    }
+    #footer-2{
+        position:absolute;
+    }
+}
